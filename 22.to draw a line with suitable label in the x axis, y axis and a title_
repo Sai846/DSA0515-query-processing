@@ -1,0 +1,16 @@
+import matplotlib.pyplot as plt
+
+# Data for the line
+x = [0, 10, 20, 30, 40, 50]
+y = [0, 30, 60, 90, 120, 150]
+
+# Plot the line
+plt.plot(x, y, color='blue')
+
+# Add labels and title
+plt.xlabel("x - axis")
+plt.ylabel("y - axis")
+plt.title("Draw a line.")
+
+# Show the plot
+plt.show()
